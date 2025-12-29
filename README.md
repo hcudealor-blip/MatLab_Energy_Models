@@ -10,7 +10,7 @@ File: RC_battery_model.m
 Outputs: RC_voltage.png, RC_power.png, RC_energy.png
 # 3. PID Closed-Loop Control (Simulink)
 A PID feedback system was implemented in Simulink using a step input, summation error block, PID controller, and first-order plant 1/(5s+1). System response was visualized in slow, fast, and critically damped PID modes.
-File: Simulink_PID.slx
+File: Simulink_PIDcontrol.slx
 Outputs: PID_slow.png, PID_fast.png, PID_critical.png
 # Key Takeaways
 - First-order systems can be modeled with ODEs
